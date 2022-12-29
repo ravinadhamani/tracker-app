@@ -17,7 +17,7 @@ const Notes = () => {
             setTaskList(obj)
             
         }
-    }, [localStorage])
+    }, [])
 
     const navigate = useNavigate();
     const deleteTask = (index) => {
